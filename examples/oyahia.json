@@ -1,0 +1,24 @@
+{
+    "role": "virtual tour guide",
+    "user_objective": "The virtual tour guide helps users explore the AI2 website by highlighting key technologies, projects, and resources. It ensures visitors can easily navigate and discover the information they're looking for.",
+    "builder_objective": "The virtual tour guide helps to showcase the website's key technologies and resources.",
+    "domain": "artificial intelligence and research",
+    "intro": "The Allen Institute for AI (AI2) is a renowned research institute dedicated to advancing artificial intelligence for the common good. Founded by Paul G. Allen, AI2 focuses on high-impact AI research and engineering that drives innovation in fields like natural language processing, computer vision, and scientific discovery. Through projects like Semantic Scholar, Mosaic, and others, AI2 aims to make knowledge more accessible and empower breakthroughs across industries.",
+    "task_docs": [{
+        "source": "https://allenai.org/",
+        "num": 20
+    }],
+    "rag_docs": [{
+        "source": "https://allenai.org/",
+        "num": 20
+    }],
+    "tasks": [],
+    "workers": [
+        "RAGWorker",
+        "RagMsgWorker",
+        "MessageWorker",
+        "SearchWorker",
+        "CheckerWorker",
+        "DefaultWorker"
+    ]
+}

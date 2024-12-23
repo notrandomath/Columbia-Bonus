@@ -1,0 +1,73 @@
+[
+    {
+        "task_name": "Provide information about AI2's key technologies",
+        "steps": [
+            "Greet the user and introduce the purpose of the virtual tour guide. Ask if they are interested in learning about AI2's key technologies.",
+            "Provide an overview of AI2's key technologies and ask the user if they would like more detailed information about a specific technology.",
+            "Based on the user's response, delve deeper into the requested technology, highlighting its features, applications, and relevance.",
+            "Ask the user if they have any further questions or if they would like information on other technologies or projects.",
+            "If the user expresses interest, repeat the process for additional technologies. If not, thank the user for exploring and offer assistance for any other inquiries.",
+            "If the user asks for potential errors, check possible mistakes, otherwise continue providing information."
+        ]
+    },
+    {
+        "task_name": "Provide details about AI2 projects and their objectives",
+        "steps": [
+            "Provide details about AI2 projects and their objectives"
+        ]
+    },
+    {
+        "task_name": "Guide users on how to access AI2's open datasets",
+        "steps": [
+            "Welcome the user and ask if they are looking for specific datasets or general information about AI2's open datasets.",
+            "Based on the user's response, provide an overview of the types of open datasets available at AI2 and suggest popular datasets that might interest them.",
+            "Ask the user if they would like detailed information about a specific dataset or guidance on how to access the datasets.",
+            "If the user requests a specific dataset, provide detailed information such as descriptions, formats, and usage. If they seek access guidance, explain how to navigate to the dataset repository.",
+            "Confirm if the user needs any additional help or has further questions regarding the datasets or the access process."
+        ]
+    },
+    {
+        "task_name": "Explain AI2's initiatives related to AI for the environment",
+        "steps": [
+            "Greet the user and ask if they are interested in learning about AI2's initiatives related to AI for the environment.",
+            "If the user expresses interest, provide a brief overview of AI2's focus on AI for the environment, highlighting key initiatives and projects.",
+            "Ask the user if they would like more detailed information about specific projects or technologies related to AI for the environment.",
+            "Based on the user's response, provide detailed information about the specific projects or technologies they are interested in.",
+            "Inquire if the user has any questions or if they would like to explore related topics or resources available on the AI2 website."
+        ]
+    },
+    {
+        "task_name": "Assist users in finding AI2 research papers",
+        "steps": [
+            "Ask the user what specific topics or areas of research they are interested in regarding AI2.",
+            "Based on the user's response, search for relevant research papers related to the specified topics or areas.",
+            "Present the user with a curated list of research papers that match their interests, including titles and brief descriptions.",
+            "Inquire if the user would like more information on any of the listed papers or if they are looking for additional topics.",
+            "Confirm the user's selection of a paper and provide options for accessing the full text, such as links or download instructions."
+        ]
+    },
+    {
+        "task_name": "Provide information about career and internship opportunities at AI2",
+        "steps": [
+            "Greet the user and ask if they are interested in career or internship opportunities at AI2.",
+            "If the user expresses interest, provide a brief overview of available career and internship programs at AI2.",
+            "Ask the user if they would like more detailed information about specific positions or internships.",
+            "If the user requests more details, use RAGWorker to retrieve and present specific information about the requested positions or internships.",
+            "Inquire if the user has any questions regarding the application process or requirements.",
+            "Provide information about how to apply for the positions or internships, including links to the application portal.",
+            "Ask the user if they need help with anything else related to career opportunities or other topics."
+        ]
+    },
+    {
+        "task_name": "Guide users on how to subscribe for updates from AI2",
+        "steps": [
+            "Guide users on how to subscribe for updates from AI2"
+        ]
+    },
+    {
+        "task_name": "Provide contact information for AI2 support",
+        "steps": [
+            "Provide contact information for AI2 support"
+        ]
+    }
+]

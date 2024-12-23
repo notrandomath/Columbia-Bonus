@@ -23,7 +23,7 @@ class DefaultWorker(BaseWorker):
     def __init__(self):
         super().__init__()
         self.llm = ChatOpenAI(model=MODEL["model_type_or_path"], timeout=30000)
-        self.base_choice = "MessageWorker"
+        self.base_choice = "CheckerWorker"
         available_workers = os.getenv("AVAILABLE_WORKERS", "").split(",")
         self.available_workers = {name: WORKER_REGISTRY[name].description for name in available_workers if name != "DefaultWorker"}
 

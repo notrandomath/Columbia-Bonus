@@ -1,0 +1,822 @@
+{
+    "nodes": [
+        [
+            "0",
+            {
+                "name": "MessageWorker",
+                "attribute": {
+                    "value": "Hello and welcome to the AI2 Virtual Tour Guide! I'm here to help you explore our website and discover key technologies, projects, and resources. What would you like to learn about today?",
+                    "task": "start message",
+                    "directed": false
+                },
+                "limit": 1,
+                "type": "start"
+            }
+        ],
+        [
+            "1",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Hello! Welcome to our virtual tour guide. Would you like to learn about AI2's key technologies?",
+                    "task": "Greet the user and introduce the purpose of the virtual tour guide. Ask if they are interested in learning about AI2's key technologies.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "2",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "AI2 has several key technologies, including natural language processing, computer vision, and machine learning. Would you like more detailed information on any of these?",
+                    "task": "Provide an overview of AI2's key technologies and ask the user if they would like more detailed information about a specific technology.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "3",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Sure! Natural language processing focuses on the interaction between computers and human language, enabling applications like chatbots and sentiment analysis.",
+                    "task": "Based on the user's response, delve deeper into the requested technology, highlighting its features, applications, and relevance.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "4",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Do you have any further questions, or would you like to know about other technologies or projects?",
+                    "task": "Ask the user if they have any further questions or if they would like information on other technologies or projects.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "5",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Thank you for exploring AI2's technologies! If you have any other inquiries or need further assistance, feel free to ask.",
+                    "task": "If the user expresses interest, repeat the process for additional technologies. If not, thank the user for exploring and offer assistance for any other inquiries.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "6",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Let me check for any mistakes in the information I've provided. Please hold on a moment.",
+                    "task": "If the user asks for potential errors, check possible mistakes, otherwise continue providing information.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "7",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "The AI2 projects focus on advancing artificial intelligence through various initiatives, including natural language processing and machine learning. Would you like more specific details about a particular project?",
+                    "task": "Provide details about AI2 projects and their objectives.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "8",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Welcome! Are you looking for specific datasets or would you like general information about AI2's open datasets?",
+                    "task": "Welcome the user and ask if they are looking for specific datasets or general information about AI2's open datasets.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "9",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "AI2 offers a variety of open datasets including text, images, and structured data. Some popular datasets include the AI2 Reasoning Challenge and the CommonSenseQA.",
+                    "task": "Based on the user's response, provide an overview of the types of open datasets available at AI2 and suggest popular datasets that might interest them.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "10",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Would you like detailed information about a specific dataset or guidance on how to access the datasets?",
+                    "task": "Ask the user if they would like detailed information about a specific dataset or guidance on how to access the datasets.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "11",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "The AI2 Reasoning Challenge dataset includes various formats such as JSON and CSV. You can access it by visiting our dataset repository at [link].",
+                    "task": "If the user requests a specific dataset, provide detailed information such as descriptions, formats, and usage. If they seek access guidance, explain how to navigate to the dataset repository.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "12",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Do you need any additional help or have further questions regarding the datasets or the access process?",
+                    "task": "Confirm if the user needs any additional help or has further questions regarding the datasets or the access process.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "13",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Hello! Are you interested in learning about AI2's initiatives related to AI for the environment?",
+                    "task": "Greet the user and ask if they are interested in learning about AI2's initiatives related to AI for the environment.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "14",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "AI2 is focusing on leveraging artificial intelligence to tackle environmental issues. Some of our key initiatives include projects on climate modeling, wildlife conservation, and pollution tracking.",
+                    "task": "If the user expresses interest, provide a brief overview of AI2's focus on AI for the environment, highlighting key initiatives and projects.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "15",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Would you like more detailed information about any specific projects or technologies related to AI for the environment?",
+                    "task": "Ask the user if they would like more detailed information about specific projects or technologies related to AI for the environment.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "16",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Sure! One of our projects focuses on using AI for predicting climate changes. It utilizes complex algorithms to analyze large datasets and identify trends.",
+                    "task": "Based on the user's response, provide detailed information about the specific projects or technologies they are interested in.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "17",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Do you have any questions or would you like to explore related topics or resources available on our AI2 website?",
+                    "task": "Inquire if the user has any questions or if they would like to explore related topics or resources available on the AI2 website.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "18",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "What specific topics or areas of research are you interested in regarding AI2?",
+                    "task": "Ask the user what specific topics or areas of research they are interested in regarding AI2.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "19",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "",
+                    "task": "Based on the user's response, search for relevant research papers related to the specified topics or areas.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "20",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Here are some research papers related to your interests: 1. 'AI2 Innovations: A Comprehensive Overview' - This paper discusses the latest innovations in AI2 technology... 2. 'Applications of AI2 in Healthcare' - This paper explores how AI2 is transforming healthcare...",
+                    "task": "Present the user with a curated list of research papers that match their interests, including titles and brief descriptions.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "21",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Would you like more information on any of these papers, or are there other topics you would like to explore?",
+                    "task": "Inquire if the user would like more information on any of the listed papers or if they are looking for additional topics.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "22",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "You've selected 'AI2 Innovations: A Comprehensive Overview'. You can access the full text [here](link) or download it [here](link).",
+                    "task": "Confirm the user's selection of a paper and provide options for accessing the full text, such as links or download instructions.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "23",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Hello! Are you interested in exploring career or internship opportunities at AI2?",
+                    "task": "Greet the user and ask if they are interested in career or internship opportunities at AI2.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "24",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "We currently have various roles and internships in AI research, software development, and data analysis. Would you like to know more about any specific area?",
+                    "task": "If the user expresses interest, provide a brief overview of available career and internship programs at AI2.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "25",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Would you like more detailed information about any specific positions or internships?",
+                    "task": "Ask the user if they would like more detailed information about specific positions or internships.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "26",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Here are the details for the Data Analyst internship: it requires proficiency in Python and SQL, and the application deadline is next month.",
+                    "task": "If the user requests more details, use RAGWorker to retrieve and present specific information about the requested positions or internships.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "27",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Do you have any questions about the application process or the requirements for the positions?",
+                    "task": "Inquire if the user has any questions regarding the application process or requirements.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "28",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "You can apply for the positions through our application portal at [link]. Please ensure to submit your resume and cover letter.",
+                    "task": "Provide information about how to apply for the positions or internships, including links to the application portal.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "29",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "Is there anything else I can assist you with regarding career opportunities or any other topics?",
+                    "task": "Ask the user if they need help with anything else related to career opportunities or other topics.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "30",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "To subscribe for updates from AI2, please visit our website and enter your email address in the subscription box at the bottom of the page. You will receive the latest news and updates directly in your inbox.",
+                    "task": "Guide users on how to subscribe for updates from AI2.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ],
+        [
+            "31",
+            {
+                "name": "DefaultWorker",
+                "attribute": {
+                    "value": "You can reach AI2 support at support@ai2.com or call us at 1-800-555-0199.",
+                    "task": "Provide contact information for AI2 support.",
+                    "directed": false
+                },
+                "limit": 1
+            }
+        ]
+    ],
+    "edges": [
+        [
+            "0",
+            "1",
+            {
+                "intent": "User wants to know about AI2's key technologies",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "1",
+            "2",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "2",
+            "3",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "3",
+            "4",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "4",
+            "5",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "5",
+            "6",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "7",
+            {
+                "intent": "User is interested in AI2 projects",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "8",
+            {
+                "intent": "User seeks access to open datasets",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "8",
+            "9",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "9",
+            "10",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "10",
+            "11",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "11",
+            "12",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "13",
+            {
+                "intent": "User wants to understand AI for the environment",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "13",
+            "14",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "14",
+            "15",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "15",
+            "16",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "16",
+            "17",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "18",
+            {
+                "intent": "User is looking for research papers",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "18",
+            "19",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "19",
+            "20",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "20",
+            "21",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "21",
+            "22",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "23",
+            {
+                "intent": "User wants to learn about career opportunities at AI2",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "23",
+            "24",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "24",
+            "25",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "25",
+            "26",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "26",
+            "27",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "27",
+            "28",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "28",
+            "29",
+            {
+                "intent": "None",
+                "attribute": {
+                    "weight": 1,
+                    "pred": false,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "30",
+            {
+                "intent": "User seeks to subscribe for updates",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ],
+        [
+            "0",
+            "31",
+            {
+                "intent": "User wants to contact AI2 for support",
+                "attribute": {
+                    "weight": 1,
+                    "pred": true,
+                    "definition": "",
+                    "sample_utterances": []
+                }
+            }
+        ]
+    ],
+    "role": "virtual tour guide",
+    "user_objective": "The virtual tour guide helps users explore the AI2 website by highlighting key technologies, projects, and resources. It ensures visitors can easily navigate and discover the information they're looking for.",
+    "builder_objective": "The virtual tour guide helps to showcase the website's key technologies and resources.",
+    "domain": "artificial intelligence and research",
+    "intro": "The Allen Institute for AI (AI2) is a renowned research institute dedicated to advancing artificial intelligence for the common good. Founded by Paul G. Allen, AI2 focuses on high-impact AI research and engineering that drives innovation in fields like natural language processing, computer vision, and scientific discovery. Through projects like Semantic Scholar, Mosaic, and others, AI2 aims to make knowledge more accessible and empower breakthroughs across industries.",
+    "task_docs": [
+        {
+            "source": "https://allenai.org/",
+            "num": 20
+        }
+    ],
+    "rag_docs": [
+        {
+            "source": "https://allenai.org/",
+            "num": 20
+        }
+    ],
+    "tasks": [],
+    "workers": [
+        "RAGWorker",
+        "RagMsgWorker",
+        "MessageWorker",
+        "SearchWorker",
+        "CheckerWorker",
+        "DefaultWorker"
+    ],
+    "nluapi": "http://localhost:55135/nlu/predict",
+    "slotfillapi": "http://localhost:55135/slotfill/predict"
+}

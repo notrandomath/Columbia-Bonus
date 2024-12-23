@@ -32,7 +32,11 @@ def interact(intent_path, summary, model_api, model_params):
         intent = intent_path[i]
         output = chatgpt_chatbot(history) 
         history.append({'role': 'assistant', 'content': output, 'intent': intent})
-        response_data = query_chatbot(model_api, filter_convo(history), model_params)
+        try:
+            response_data = query_chatbot(model_api, filter_convo(history), model_params)
+        except json.JSONDecodeError:
+            print("JSON ERROR")
+            continue
         answer = response_data["answer"]
         answer = answer.replace('\n', ' ')
         model_params = response_data.get("parameters", model_params)

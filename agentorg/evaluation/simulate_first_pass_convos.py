@@ -40,8 +40,13 @@ def generate_conversations(model_api, goals, summary, model_params, synthetic_da
     convos = []
     for i in range(synthetic_data_params['num_convos']):
         goal = random.choice(goals)
-        convo = conversation(model_api, goal, summary, model_params, synthetic_data_params)
+        try:
+            convo = conversation(model_api, goal, summary, model_params, synthetic_data_params)
+        except json.JSONDecodeError:
+            print("JSON ERROR")
+            continue
         convos.append(flip_hist(filter_convo(convo, filter_turns=False)))
+    synthetic_data_params['num_convos'] = len(convos)
     return convos
 
 def simulate_conversations(model_api, model_params, synthetic_data_params, config):
